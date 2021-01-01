@@ -1,0 +1,51 @@
+﻿<Window x:Class="Translator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Translator"
+        mc:Ignorable="d"
+        Title="Hindi Translator" WindowState="Maximized" FontSize="24">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Input">
+            <TextBox x:Name="InputTextBox" Background="LightYellow" KeyUp="InputTextBox_KeyUp" />
+        </GroupBox>
+
+        <GroupBox Header="Translated" Grid.Column="1">
+            <ListBox>
+
+            </ListBox>
+        </GroupBox>
+
+        <Popup x:Name="PopupSuggestions" Height="Auto" MinWidth="150" 
+       StaysOpen="False" Placement="Bottom" IsOpen="false" 
+       d:LayoutOverrides="Width, Margin" 
+        HorizontalAlignment="Left">
+            <Grid Width="Auto" Height="Auto">
+                <ListBox x:Name="SuggestionsListBox" 
+             ScrollViewer.HorizontalScrollBarVisibility="Hidden" 
+             ScrollViewer.VerticalScrollBarVisibility="Hidden" 
+             KeyDown="SuggestionsListBox_KeyDown" 
+                       
+                         SelectionChanged="SuggestionsListBox_SelectionChanged"
+                         MouseUp="SuggestionsListBox_MouseUp"
+             SelectedIndex="0" 
+             IsTextSearchEnabled="True" 
+           
+          />
+
+                <!--ItemsSource="{Binding Path=Methods, Mode=OneWay, Source={StaticResource ItemMethodsDS}}" 
+              ItemTemplate="{DynamicResource ListSyndicationObjectMethodsTemplate}"-->
+
+            </Grid>
+        </Popup>
+
+
+
+    </Grid>
+</Window>

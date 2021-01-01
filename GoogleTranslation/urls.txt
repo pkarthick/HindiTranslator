@@ -1,0 +1,11 @@
+"Invalid JSON document http://translate.google.com/translate_a/t?q=%e0%a4%a4%e0%a5%81%e0%a4%ae%e0%a5%8d%e0%a4%b9%e0%a4%be%e0%a4%b0%e0%a4%be&amp;client=x&amp;text=&amp;sl=auto&amp;tl=en&amp;ie=UTF-8"
+
+https://translate.google.com/translate_a/single?client=t&sl=hi&tl=en&hl=en&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&ie=UTF-8&oe=UTF-8&source=clks&trs=1&inputm=1&srcrom=1&ssel=0&tsel=0&kc=1&tk=719917.843757&q=%E0%A4%A4%E0%A5%81%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE
+
+https://translate.google.com/translate_a/single?client=t&sl=auto&tl=en&hl=en&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&dt=at&ie=UTF-8&oe=UTF-8&otf=2&srcrom=1&ssel=0&tsel=0&kc=5&tk=669700.793540&q=tumhaaraa
+
+https://api.microsofttranslator.com/v2/ajax.svc/TranslateArray2?appId=%22TCt35QMoZ-YEXpAN0PZtZWMbBDI-WMMpwybFuVwlNzXs*%22&texts=%5B%22%E0%A4%A4%E0%A5%81%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%22%5D&from=%22hi%22&to=%22en%22&options=%7B%7D&oncomplete=onComplete_7&onerror=onError_7&_=1448528016837
+
+https://www.bing.com/translator/sync.ashx?callback=jQuery111201792725611012429_1448528016823&0=S_8_1_1_257&svc=LP&loc=en&ref=https%3A%2F%2Fwww.bing.com%2Ftranslator%2F&from=hi&to=en&dtc=&text=%E0%A4%A4%E0%A5%81%E0%A4%AE%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE...&_=1448528016838
+
+onComplete_7([{"Alignment":"0:7-0:4","From":"hi","OriginalTextSentenceLengths":[8],"TranslatedText":"Yours","TranslatedTextSentenceLengths":[5]}]);
